@@ -95,5 +95,13 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Drupal\\Tests\\MyDrupal\\": "tests/"
+        }
     }
 }
